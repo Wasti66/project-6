@@ -1,0 +1,90 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+section{
+	padding-top:75px;
+	padding-bottom:75px;
+}
+/*-- ===== home part ====== --*/
+#home .card{
+	background: rgba(0, 0, 0, 0.25);
+}
+#main-slider .carousel-indicators .active{
+	background-color:#f4590b!important;
+	color:black!important;
+}
+/*-- === === --*/
+.extra-overlay:hover .card-img-overlay{
+	background: rgba(6, 21, 90, 0.6);
+	bottom: 0;
+	transition: all 0.2s ease-in-out;
+}
+/*-- === hosting service === --*/
+.hosting h2{
+	font-size:2.29595rem;
+}
+/*-- === Cutting-edge Platform === -- */
+#Platform  .btn{
+	border:1px solid #0948b3;
+	color:#083e9b;
+	padding: 10px 20px;
+    font-size: 14px;
+}
+#Platform  .btn:hover{
+	background-color:#083e9b;
+	color:white;
+}
+/*-- === clint say about us === --*/
+#clint span{
+	height: 30px;
+    width: 30px;
+    font-size: 48px;
+    left: -7px;
+	line-height:60px;
+}
+/*-- === wordpress === --*/
+#wordpress .card:hover{
+	margin-top:-5px!important;
+	transition:all 0.3s!important;
+}
+/*-- === address details === --*/
+#address p{
+	font-size: 0.9rem;
+    line-height: 23px;
+}
+#address .ressouces a{
+	font-size:0.8rem!important;
+	line-height:27px;
+	color:#e4dede;
+}
+#address .ressouces a:hover{
+	color:#807979;
+}
+/* ------ ==== media device ==== --- */
+@media(max-width:576px){
+	#home .pt-10{
+		padding-top: 5rem!important;
+	}
+	#home .pb-10{
+		padding-bottom: 5.4rem!important;
+	}
+	#home h2{
+		font-size:1.8rem!important;
+	}
+	#home .lead{
+		font-size:1rem!important;
+	}
+	#main-slider .carousel-indicators .res_card {
+		visibility:hidden;
+	}
+	/*--- mav ---- */
+	#main-nav{
+		background-color:#125598!important;
+	}
+	.navbar-light .navbar-toggler {
+		color: #1e7e34;
+		border-color: rgb(255 245 245 / 99%);
+	}
+}
